@@ -8,7 +8,7 @@
   </head>
   <body>
     <main>
-      <form action="">
+      <form action="" oninput="x.value=parseInt(a.value)+parseInt(b.value)">
         <div>
           <label for="txtnombre">Nombres</label>
           <input type="text" id="txtnombre" name="txtnombre" />
@@ -76,7 +76,21 @@
                 <option value="javascript">JS</option>
             </select>
         </div>
+<br>
+        <div>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        <button type="button" onclick="alert('Codigo JS')">Hazme click</button>
+        </div>
 
+        <div>
+            0
+            <input type="range" name="a" id="a" value="50">
+            100
+
+            <input type="number" name="b" id="b" value="25">
+
+           = <output name="x" for="a b" ></output>
+        </div>
       </form>
     </main>
   </body>
