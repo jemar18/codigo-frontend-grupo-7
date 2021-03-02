@@ -7,58 +7,74 @@ p {
     font-size: 100px;
 }
 */
-body{
-    background-color: black;
-    text-align: center;
+body {
+  background-color: black;
+  text-align: center;
 }
 
-header{
-    background-color: white;
-    text-align: center;
+header {
+  background-color: white;
+  text-align: center;
 }
 
-small{
-    color:green;
+small {
+  color: green;
 }
 
-.p_contenido{
-    height: 40px;
-text-align: left;
+.p_contenido {
+  height: 40px;
+  text-align: left;
 }
 
-#lugar{
-    color: indigo;
-    font-weight: bold;
+#lugar {
+  color: indigo;
+  font-weight: bold;
 }
 
-img{
-    align-content: center;
+img {
+  align-content: center;
+  width: 250px;
+  border-radius: 50%;
 }
 
-#h1_titulo{
-text-align: center;
-font-weight: bold;
-font-size: 40px;
-color: white;
-
+#h1_titulo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
 
-.h2_content{
-    color:rgb(180, 170, 170);
-    background-color:rgb(42, 43, 41);
-    text-align: left;
-    width:40%;
+.h2_content {
+  color: rgb(180, 170, 170);
+  background-color: rgb(42, 43, 41);
+  text-align: left;
+  width: 40%;
 }
 
-footer{
-    background-color: white;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
+footer {
+  background-color: white;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 
-.div_centrado{
-    text-align: center;
-    background-color: cadetblue;
-    width: 80%;
+.div_centrado {
+  text-align: center;
+  background-color: cadetblue;
+  width: 80%;
+}
+
+.input_estilo {
+  background-color: greenyellow;
+  caret-color: grey;
+  color: black;
+}
+
+img:hover {
+  align-content: flex-end;
+}
+
+label {
+  color: whitesmoke;
 }
