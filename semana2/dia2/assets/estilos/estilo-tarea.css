@@ -1,0 +1,25 @@
+body {
+  background-image: url("https://eldemocrata.com/wp-content/uploads/2020/10/Principal_Sorteo_UEFA_Champions_League.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(209, 209, 228);
+  color: rgb(75, 75, 235);
+  font-size: 4em;
+}
+
+div {
+  text-align: center;
+}
+img {
+  width: 45%;
+  opacity: 0.9;
+  border-radius: 5%;
+}
+footer {
+  height: 120px;
+  background-image: url("https://cdn.bleacherreport.net/images_root/slides/photos/000/633/543/106887172_original.jpg?1294936346");
+}

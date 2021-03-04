@@ -1,0 +1,18 @@
+#tarea_div {
+  height: 695px;
+  width: 250px;
+  border-radius: 68%;
+  text-align: center;
+  color: white;
+
+  background-image: linear-gradient(
+    to top left,
+    rgb(11, 243, 166),
+    rgb(89, 126, 100),
+    rgb(62, 136, 52),
+    rgb(52, 116, 158),
+    rgb(63, 71, 69),
+    rgb(76, 76, 172),
+    orange
+  );
+}

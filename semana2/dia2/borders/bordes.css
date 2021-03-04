@@ -1,0 +1,22 @@
+.border_puntos {
+  border-style: dotted dashed solid double;
+}
+.border_lineas {
+  border-style: dashed;
+}
+.border_solido {
+  border-style: solid;
+}
+.border_doble {
+  border-style: double;
+}
+input {
+  background-color: seagreen;
+  border-style: none;
+}
+h1 {
+  border-style: outset;
+}
+h2 {
+  border-style: inset;
+}
