@@ -1,0 +1,25 @@
+#girar{
+    
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    transform: rotate(35deg);
+  
+}
+
+#torcer{
+    
+    height: 250px;
+    width: 250px;
+    background-color:greenyellow;
+    color: black;
+    font-size: 30px;
+    
+  
+}
+
+div:hover{
+    transform:skewx(20deg)
+}

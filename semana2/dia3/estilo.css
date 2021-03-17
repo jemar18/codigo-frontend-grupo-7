@@ -50,12 +50,18 @@
   );
 }
 
-#grad_linear_transparencia{
+#grad_linear_transparencia {
   height: 250px;
   width: 250px;
   background-image: linear-gradient(
     to right,
-    rgba(222, 233, 222,0),
+    rgba(222, 233, 222, 0),
     rgba(33, 10, 241, 0.5)
   );
+}
+
+#grad_linear_repetido {
+  height: 250px;
+  width: 250px;
+  background-image: repeating-linear-gradient(red 5%, yellow 10%, green 20%);
 }
